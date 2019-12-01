@@ -1,0 +1,40 @@
+/*
+#####=== base/base.scss ===######
+
+*/
+
+header{
+  background-color: $dark;
+  color: $secondary;
+  padding-top: 0.25rem;
+  padding-bottom: 2px;
+  margin-top: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  position: relative;
+  background-color: #F5F7FA;
+}
+
+code {
+  background-color: #F9F2F4;
+  border-radius: 4px;
+  color: #ca4440;
+  font-size: 90%;
+  padding: 2px 4px;
+  white-space: nowrap;
+}
+
+.btn:hover, .btn:focus,
+.form-control:hover, .form-control:focus,
+.custom-select:hover, .custom-select:focus,
+.custom-file-input:hover, .custom-file-input:focus {
+  outline: 0px !important;
+  box-shadow: none !important;
+}
+
+

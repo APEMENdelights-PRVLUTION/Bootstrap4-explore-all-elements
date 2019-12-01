@@ -1,0 +1,45 @@
+/* #####=== comps/formelements.scss ===######
+
+ */
+.btn-password {
+  border: 1px solid #ccc;
+  color: #aaa;
+
+  &:hover,
+  &:active,
+  &:focus {
+    outline: 0px !important;
+    box-shadow: none !important;
+  }
+
+  &.btn-password-right {
+    border-left: 0;
+  }
+  &.btn-paaword-left {
+    border-right: 0;
+  }
+}
+
+
+
+// Bootstrap 4 custom color input ----------------------------------------------
+.custom-color {
+  .form-control {
+    appearance: none;
+    padding: 0;
+
+    &::-webkit-color-swatch-wrapper {
+      padding: 0;
+    }
+
+    &::-webkit-color-swatch {
+      border: none;
+      border-radius: .2rem;
+    }
+
+    &::-moz-color-swatch {
+      border: none;
+      border-radius: .2rem;
+    }
+  }
+}

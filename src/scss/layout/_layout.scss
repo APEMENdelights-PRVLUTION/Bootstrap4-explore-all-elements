@@ -1,0 +1,153 @@
+/* #####=== layout/layout.scss ===######
+
+ */
+
+
+#quick-nav {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translatey(-50%);
+  margin: 0 20px;
+  width: $sidebar-width;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+
+  .nav-link {
+    color: #586069;
+    transition: .2s;
+
+    &.active {
+      background-color: #6C757D;
+      color: #fff;
+      transition: .2s;
+    }
+  }
+
+  @media (max-height: 840px) {
+    font-size: .7rem;
+    width: 130px;
+  }
+}
+
+#demo-component {
+  position: relative;
+  margin: 0 20px 0 $sidebar-width+40;
+
+  .example-block {
+    background-color: transparent;
+    // padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    // box-shadow: 0 2px 4px rgba(0,0,0,.1);
+
+    &::after {
+      display: block;
+      clear: both;
+      content: "";
+    }
+
+    &:last-child {
+      margin-bottom: 60px;
+    }
+
+    &.example-static-dropdown .dropdown-menu {
+      display: block;
+      position: static;
+    }
+
+    &.example-static-popover .popover {
+      position: relative;
+
+      &.bs-popover-top,
+      &.bs-popover-bottom {
+        .arrow {
+          right: 50%;
+          transform: translatex(50%);
+        }
+      }
+
+      &.bs-popover-left,
+      &.bs-popover-right {
+        .arrow {
+          top: 50%;
+          transform: translatey(-50%);
+        }
+      }
+    }
+
+    &.example-static-tooltip .tooltip {
+      display: inline-block;
+      opacity: 1;
+      position: relative;
+
+      &.bs-tooltip-top,
+      &.bs-tooltip-bottom {
+        .arrow {
+          right: 50%;
+          transform: translatex(50%);
+        }
+      }
+
+      &.bs-tooltip-left,
+      &.bs-tooltip-right {
+        .arrow {
+          top: 50%;
+          transform: translatey(-50%);
+        }
+      }
+    }
+
+    &.example-static-modals {
+      .modal-demo {
+        position: relative;
+
+        .demo-overlay {
+          background-color: #000;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          opacity: .5;
+        }
+
+        .modal {
+          position: relative;
+          top: auto;
+          right: auto;
+          bottom: auto;
+          left: auto;
+          z-index: 1;
+          display: block;
+        }
+
+        .modal-dialog {
+          left: auto;
+          margin-right: auto;
+          margin-left: auto;
+        }
+      }
+    }
+
+    &.example-static-toasts {
+
+      .toast {
+        display: block;
+        opacity: 1;
+      }
+    }
+
+    .inline-block {
+      display: inline-block;
+      margin-right: 40px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    margin: 0 20px;
+  }
+}
+
