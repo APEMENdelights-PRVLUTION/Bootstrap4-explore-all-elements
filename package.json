@@ -1,0 +1,30 @@
+{
+  "name": "bootstrap-four-all-elements",
+  "version": "1.0.0",
+  "description": "BOOTSTRAP-FOUR-all-elements php splitted",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APEMENdelights-PRVLUTION/BOOTSTRAP-4-Explore-all-elements.git"
+  },
+  "keywords": [
+    "bs4"
+  ],
+  "author": "phil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/APEMENdelights-PRVLUTION/BOOTSTRAP-FOUR-Explore-all-elements/issues"
+  },
+  "homepage": "https://github.com/APEMENdelights-PRVLUTION/BOOTSTRAP-FOUR-Explore-all-elements#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "holderjs": "^2.9.6"
+  }
+}

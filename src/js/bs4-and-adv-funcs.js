@@ -63,7 +63,7 @@ $(function () {
   });
 
 // init BT4 tooltip
-  $('#demo-component [data-toggle="tooltip"]').tooltip({
+  $('#demo-components [data-toggle="tooltip"]').tooltip({
     boundary: 'window',
     container: '#component' // fix position
   });

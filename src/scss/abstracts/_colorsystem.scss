@@ -1,17 +1,17 @@
 // Color system
-$white: #fff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #6c757d !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #212529 !default;
-$black: #000 !default;
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
 
-$grays: () !default;
+$grays: ();
 $grays: map-merge(
                 (
                         '100': $gray-100,
@@ -27,18 +27,18 @@ $grays: map-merge(
                 $grays
 );
 
-$blue: #007bff !default;
-$indigo: #6610f2 !default;
-$purple: #6f42c1 !default;
-$pink: #e83e8c !default;
-$red: #dc3545 !default;
-$orange: #fd7e14 !default;
-$yellow: #ffc107 !default;
-$green: #28a745 !default;
-$teal: #20c997 !default;
-$cyan: #17a2b8 !default;
+$blue: #007bff;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #28a745;
+$teal: #20c997;
+$cyan: #17a2b8;
 
-$colors: () !default;
+$colors: ();
 $colors: map-merge(
                 (
                         'blue': $blue,
@@ -58,16 +58,16 @@ $colors: map-merge(
                 $colors
 );
 
-$primary: $blue !default;
-$secondary: $gray-600 !default;
-$success: $green !default;
-$info: $cyan !default;
-$warning: $yellow !default;
-$danger: $red !default;
-$light: $gray-100 !default;
-$dark: $gray-800 !default;
+$primary: $blue;
+$secondary: $gray-600;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-800;
 
-$theme-colors: () !default;
+$theme-colors: ();
 $theme-colors: map-merge(
                 (
                         'primary': $primary,
@@ -84,20 +84,20 @@ $theme-colors: map-merge(
 );
 
 // Brand colors
-$facebook: #3b5999 !default;
-$twitter: #1da1f2 !default;
-$google-plus: #dd4b39 !default;
-$instagram: #e4405f !default;
-$pinterest: #bd081c !default;
-$youtube: #cd201f !default;
-$slack: #3aaf85 !default;
-$dribbble: #ea4c89 !default;
-$github: #222222 !default;
-$dropbox: #0070e0 !default;
-$vk: #4a76a8 !default;
-$reddit: #ff4401 !default;
+$facebook: #3b5999;
+$twitter: #1da1f2;
+$google-plus: #dd4b39;
+$instagram: #e4405f;
+$pinterest: #bd081c;
+$youtube: #cd201f;
+$slack: #3aaf85;
+$dribbble: #ea4c89;
+$github: #222222;
+$dropbox: #0070e0;
+$vk: #4a76a8;
+$reddit: #ff4401;
 
-$brand-colors: () !default;
+$brand-colors: ();
 $brand-colors: map-merge(
                 (
                         'facebook': $facebook,
